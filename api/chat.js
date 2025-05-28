@@ -1,5 +1,5 @@
 
-export default async function handler(req, res) {
+module.exports = aysnc function (req, res) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Only POST requests are allowed' });
   }
